@@ -1,0 +1,34 @@
+[user]
+	name = Ryan Blunden
+	email = ryan.blunden@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	autocrlf = input
+[pull]
+	rebase = true    
+[push]
+	default = simple
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[init]
+	defaultBranch = main
+[alias]
+	a = add
+	b = branch
+	c = commit
+	cl = clone
+	co = checkout
+	cp = cherry-pick
+	m = merge
+	p = push --follow-tags
+	pu = pull
+	r = reset
+	s = status
+	force-push = push --force-with-lease
+	fp = force-push
