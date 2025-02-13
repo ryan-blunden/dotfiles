@@ -6,7 +6,7 @@ echo "[info]: Configuring Git..."
 cp -f .gitconfig ~/.gitconfig
 
 echo "[info]: Customizing shell..."
-curl -sS https://starship.rs/install.sh | sudo sh -s -- --force
+curl -sS https://starship.rs/install.sh | sudo sh -s -- --force > /dev/null
 cp -f starship.toml ~/.config
 cp -f .bash_profile ~/
 mkdir -p ~/.config

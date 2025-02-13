@@ -3,44 +3,6 @@
   "[mdx]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.userWords": [
-    "blunden",
-    "buildx",
-    "CLICOLOR",
-    "clippy",
-    "codespaces",
-    "commandhistory",
-    "devcontainer",
-    "devcontainers",
-    "dotenv",
-    "envbox",
-    "esbenp",
-    "gunicorn",
-    "histappend",
-    "HISTFILE",
-    "ignoredups",
-    "kubeconfig",
-    "Kubeconfigs",
-    "libpq",
-    "noninteractive",
-    "NOPASSWD",
-    "openapi",
-    "petstore",
-    "pipx",
-    "PYTHONDONTWRITEBYTECODE",
-    "PYTHONPATH",
-    "PYTHONUNBUFFERED",
-    "ryanblunden",
-    "speakeasyapi",
-    "tlsv",
-    "unifiedjs",
-    "Upsert",
-    "venv",
-    "virtualenv",
-    "VIRTUALENVS",
-    "wsgi",
-    "yodaspeak"
-  ],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -64,10 +26,6 @@
   "workbench.colorTheme": "Dracula Theme",
   "editor.fontSize": 12,
   "flake8.args": [""],
-  "cSpell.enabledFileTypes": {
-    "yaml": false
-  },
-  "cSpell.ignorePaths": [".bash_profile"],
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
